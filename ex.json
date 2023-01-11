@@ -1,3 +1,4 @@
+[
 {
   "parkingSpotNumber":"2056",
   "licensePlatCar":"PKC8563",
@@ -7,17 +8,94 @@
   "responsibleName":"José Cleiton",
   "apartment":"206",
   "block":"c"
-}
+},
 
 {
-  "id": "d13b14d2-4500-4c5b-85dd-211668911527",
-  "parkingSpotNumber": "2053",
-  "licensePlatCar": "PKC8562",
-  "brandCar": "Audi",
-  "modelCar": "A3",
-  "colorCar": "Black",
-  "registrationData": "2023-01-11T15:43:29.326106",
-  "responsibleName": "José Cleiton",
-  "apartment": "205",
-  "block": "A"
+  "parkingSpotNumber":"2056",
+  "licensePlatCar":"PKC8563",
+  "brandCar":"Audi",
+  "modelCar":"A3",
+  "colorCar":"Black",
+  "responsibleName":"José Cleiton",
+  "apartment":"206",
+  "block":"c"
 },
+
+{
+  "parkingSpotNumber":"2056",
+  "licensePlatCar":"PKC8563",
+  "brandCar":"Audi",
+  "modelCar":"A3",
+  "colorCar":"Black",
+  "responsibleName":"José Cleiton",
+  "apartment":"206",
+  "block":"c"
+},
+
+{
+  "parkingSpotNumber":"2056",
+  "licensePlatCar":"PKC8563",
+  "brandCar":"Audi",
+  "modelCar":"A3",
+  "colorCar":"Black",
+  "responsibleName":"José Cleiton",
+  "apartment":"206",
+  "block":"c"
+},
+
+{
+  "parkingSpotNumber":"2056",
+  "licensePlatCar":"PKC8563",
+  "brandCar":"Audi",
+  "modelCar":"A3",
+  "colorCar":"Black",
+  "responsibleName":"José Cleiton",
+  "apartment":"206",
+  "block":"c"
+},
+
+{
+  "parkingSpotNumber":"2056",
+  "licensePlatCar":"PKC8563",
+  "brandCar":"Audi",
+  "modelCar":"A3",
+  "colorCar":"Black",
+  "responsibleName":"José Cleiton",
+  "apartment":"206",
+  "block":"c"
+},
+
+{
+  "parkingSpotNumber":"2056",
+  "licensePlatCar":"PKC8563",
+  "brandCar":"Audi",
+  "modelCar":"A3",
+  "colorCar":"Black",
+  "responsibleName":"José Cleiton",
+  "apartment":"206",
+  "block":"c"
+},
+
+{
+  "parkingSpotNumber":"3056",
+  "licensePlatCar":"Cal8563",
+  "brandCar":"Ford",
+  "modelCar":"Ret",
+  "colorCar":"Black",
+  "responsibleName":"Caléo",
+  "apartment":"306",
+  "block":"F"
+},
+
+{
+  "parkingSpotNumber":"1056",
+  "licensePlatCar":"TXC8563",
+  "brandCar":"Corsa",
+  "modelCar":"Wind",
+  "colorCar":"write",
+  "responsibleName":"José Claudio",
+  "apartment":"106",
+  "block":"d"
+}
+
+]
