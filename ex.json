@@ -8,3 +8,16 @@
   "apartment":"206",
   "block":"c"
 }
+
+{
+  "id": "d13b14d2-4500-4c5b-85dd-211668911527",
+  "parkingSpotNumber": "2053",
+  "licensePlatCar": "PKC8562",
+  "brandCar": "Audi",
+  "modelCar": "A3",
+  "colorCar": "Black",
+  "registrationData": "2023-01-11T15:43:29.326106",
+  "responsibleName": "José Cleiton",
+  "apartment": "205",
+  "block": "A"
+},
