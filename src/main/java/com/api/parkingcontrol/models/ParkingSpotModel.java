@@ -20,23 +20,23 @@ public class ParkingSpotModel implements Serializable {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private UUID id;
-  @Column(nullable = false, unique = true, length = 10)
+  @Column(name = "\"parkingSpotNumber\"", nullable = false, unique = true, length = 10)
   private String parkingSpotNumber;
-  @Column(nullable = false, length = 7)
-  private String license_plat_car;
-  @Column(nullable = false, length = 70)
+  @Column(name = "\"licensePlatCar\"", nullable = false, length = 7)
+  private String licensePlatCar;
+  @Column(name = "\"brandCar\"", nullable = false, length = 70)
   private String brandCar;
-  @Column(nullable = false, length = 70)
+  @Column(name = "\"modelCar\"", nullable = false, length = 70)
   private String modelCar;
-  @Column(nullable = false, length = 70)
+  @Column(name = "\"colorCar\"", nullable = false, length = 70)
   private String colorCar;
-  @Column(nullable = false)
+  @Column(name = "\"registrationData\"", nullable = false)
   private LocalDateTime registrationData;
-  @Column(nullable = false, length = 130)
+  @Column(name = "\"responsibleName\"", nullable = false, length = 130)
   private String responsibleName;
-  @Column(nullable = true, length = 30)
-  private String apartament;
-  @Column(nullable = false, length = 30)
+  @Column(name = "\"apartment\"", nullable = true, length = 30)
+  private String apartment;
+  @Column(name = "\"block\"", nullable = false, length = 30)
   private String block;
 
 
@@ -58,11 +58,11 @@ public class ParkingSpotModel implements Serializable {
   }
 
   public String getLicensePlatCar() {
-    return this.license_plat_car;
+    return this.licensePlatCar;
   }
 
   public void setLicensePlatCar(String licensePlatCar) {
-    this.license_plat_car = licensePlatCar;
+    this.licensePlatCar = licensePlatCar;
   }
 
   public String getBrandCar() {
@@ -105,12 +105,12 @@ public class ParkingSpotModel implements Serializable {
     this.responsibleName = responsableName;
   }
 
-  public String getApartament() {
-    return this.apartament;
+  public String getApartment() {
+    return this.apartment;
   }
 
-  public void setApartament(String apartament) {
-    this.apartament = apartament;
+  public void setApartment(String apartment) {
+    this.apartment = apartment;
   }
 
   public String getBlock() {

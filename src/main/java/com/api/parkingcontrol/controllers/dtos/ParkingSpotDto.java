@@ -10,7 +10,7 @@ public class ParkingSpotDto {
 
   @NotBlank
   @Size(max = 7)  
-  private String license_plat_car;
+  private String licensePlatCar;
   @NotBlank
   private String brandCar;
   @NotBlank
@@ -21,10 +21,11 @@ public class ParkingSpotDto {
   @NotBlank
   private String responsibleName;
   @NotBlank
-  private String apartament;
+  private String apartment;
 
   @NotBlank
   private String block;
+
 
 
   public String getParkingSpotNumber() {
@@ -35,12 +36,12 @@ public class ParkingSpotDto {
     this.parkingSpotNumber = parkingSpotNumber;
   }
 
-  public String getLicensePlateCar() {
-    return this.license_plat_car;
+  public String getLicensePlatCar() {
+    return this.licensePlatCar;
   }
 
-  public void setLicensePlateCar(String licensePlateCar) {
-    this.license_plat_car = licensePlateCar;
+  public void setLicensePlatCar(String licensePlatCar) {
+    this.licensePlatCar = licensePlatCar;
   }
 
   public String getBrandCar() {
@@ -75,12 +76,12 @@ public class ParkingSpotDto {
     this.responsibleName = responsibleName;
   }
 
-  public String getApartament() {
-    return this.apartament;
+  public String getApartment() {
+    return this.apartment;
   }
 
-  public void setApartament(String apartament) {
-    this.apartament = apartament;
+  public void setApartment(String apartment) {
+    this.apartment = apartment;
   }
 
   public String getBlock() {
@@ -90,6 +91,7 @@ public class ParkingSpotDto {
   public void setBlock(String block) {
     this.block = block;
   }
+  
 
 
   
